@@ -5,7 +5,10 @@
 ;; This file contains functions for executing a command for every fake cursor
 
 (require 'cl-lib)
-(require 'evil)
+
+(require 'evil-core)
+(require 'evil-common)
+
 (require 'evil-mc-common)
 (require 'evil-mc-vars)
 (require 'evil-mc-undo)
