@@ -6,7 +6,9 @@
 ;; the currently running command
 
 (require 'cl-lib)
-(require 'evil)
+
+(require 'evil-common)
+(require 'evil-core)
 (require 'evil-mc-common)
 
 ;;; Code:
