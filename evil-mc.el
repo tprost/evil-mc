@@ -31,7 +31,8 @@
 
 ;;; Code:
 
-(require 'evil)
+(require 'evil-core)
+(require 'evil-common)
 
 (require 'evil-mc-common)
 (require 'evil-mc-vars)
